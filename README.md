@@ -43,8 +43,35 @@ When the extension does run on Android:
 1. Keep the X tab **in the foreground** while downloading — background tabs often stall scrolling
 2. Downloads land **flat** in the Downloads folder. Android typically drops nested folders, so each file is named like `account_2024-01-01_1234567890_1.jpg` (account name prefix)
 3. The album file is named like `account_album.html` (not a subfolder path)
-4. **Opening `album.html` from Chrome’s Downloads preview often fails to show relative photos/videos.** Open the HTML from a file manager so it sits next to the media files, or copy the whole set to a computer and open it there
+4. **Opening `album.html` from Chrome’s Downloads preview often fails to show relative photos/videos.** Open the HTML from a file manager so it sits next to the media files
 5. **Reset progress** and **Check for misses** work the same as on desktop — use them if videos were skipped or you want to backfill
+
+### Organize flat Downloads into account folders (phone only)
+
+After many downloads, use Termux once — **do not paste a multi-line loop**. Download the script, then run one short command.
+
+1. Install [Termux](https://f-droid.org/en/packages/com.termux/) (F-Droid build recommended)
+2. Run `termux-setup-storage` and allow storage access
+3. Download the script (phone browser is fine):  
+   [scripts/organize-android.sh](scripts/organize-android.sh)  
+   Save it into your Downloads folder
+4. In Termux, run **one** of these (try the first; if the folder is empty, try the second):
+
+```bash
+cd ~/storage/downloads && sh organize-android.sh
+```
+
+```bash
+cd ~/storage/shared/Download && sh organize-android.sh
+```
+
+If the script is in Downloads but you `cd` elsewhere:
+
+```bash
+sh ~/storage/downloads/organize-android.sh ~/storage/downloads
+```
+
+It creates folders named after each account prefix and moves matching files in. `mv -n` will not overwrite existing files. Then open `account/album.html` (or `account/account_album.html` if still prefixed) with a **file manager**, not Chrome’s download preview.
 
 ## Notes
 
@@ -52,7 +79,8 @@ When the extension does run on Android:
 - Already-saved items are skipped on later runs
 - If you stop mid-run, start again or use Check for misses to finish
 - Per-tweet buttons ignore the batch Photos / Videos / All choice
+- Per-tweet downloads do not regenerate `album.html` (batch / miss-check only)
 
 ## Version
 
-`1.2.0`
+`1.2.1`
