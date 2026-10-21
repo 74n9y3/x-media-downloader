@@ -4,6 +4,10 @@ Chrome extension that downloads photos and videos from an open X (Twitter) profi
 
 **Personal / private use only.** Respect X’s terms and the account owner’s rights. Do not redistribute downloaded media.
 
+<p align="center">
+  <img src="docs/popup.png" alt="X Media Downloader popup" width="360">
+</p>
+
 ## What it does
 
 - Batch-download **Photos**, **Videos**, or **All** from a profile’s Media tab
