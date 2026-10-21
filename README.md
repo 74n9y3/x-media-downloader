@@ -8,6 +8,23 @@ Chrome extension that downloads photos and videos from an open X (Twitter) profi
   <img src="docs/popup.png" alt="X Media Downloader popup" width="360">
 </p>
 
+<div align="center">
+<h3>☕ 请我一杯咖啡</h3>
+<p>项目免费。若它帮你保存过照片或视频，欢迎用对应网络的 <strong>USDT</strong> 打赏。<br/>
+<sub>请按下面的网络转入，网络不一致会无法入账。</sub></p>
+<p>
+  <img alt="BSC USDT" src="https://img.shields.io/badge/BSC-USDT%20BEP--20-F3BA2F?style=for-the-badge&logo=binance&logoColor=white" />
+  <img alt="Solana USDT" src="https://img.shields.io/badge/Solana-USDT-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
+  <img alt="Tron USDT" src="https://img.shields.io/badge/Tron-USDT%20TRC--20-FF060A?style=for-the-badge&logo=tron&logoColor=white" />
+</p>
+</div>
+
+| 网络 | 打赏地址 |
+|:-----|:---------|
+| ![BSC](https://img.shields.io/badge/BSC-F3BA2F?style=flat-square&logo=binance&logoColor=white) **USDT · BEP-20** | `0x6E7359A42C466893E9A835fD6aFdb82E0D1Ed32d` |
+| ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white) **USDT** | `Hm7f6wGdvcmLmbcXV7sdLYGJKBdwGoFrJTZPzeN8dpan` |
+| ![Tron](https://img.shields.io/badge/Tron-FF060A?style=flat-square&logo=tron&logoColor=white) **USDT · TRC-20** | `TGNrpZBqD8jnfNCb7B9W93qMmVHycoFsKJ` |
+
 ## What it does
 
 - Batch-download **Photos**, **Videos**, or **All** from a profile’s Media tab
