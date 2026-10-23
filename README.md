@@ -2,17 +2,17 @@
 
 <div align="center">
 
-### ☕ 请我一杯咖啡
+### ☕ Buy me a coffee
 
-项目免费。若它帮你保存过照片或视频，欢迎用对应网络的 **USDT** 打赏。
+This project is free. If it helped you save photos or videos, tips in **USDT** on the matching network are welcome.
 
-请按下面的网络转入，网络不一致会无法入账。
+Send on the network listed below; a mismatched network will not be credited.
 
 <img alt="BSC USDT" src="https://img.shields.io/badge/BSC-USDT%20BEP--20-F3BA2F?style=for-the-badge&logo=binance&logoColor=white" />
 <img alt="Solana USDT" src="https://img.shields.io/badge/Solana-USDT-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
 <img alt="Tron USDT" src="https://img.shields.io/badge/Tron-USDT%20TRC--20-FF060A?style=for-the-badge&logo=tron&logoColor=white" />
 
-| 网络 | 打赏地址 |
+| Network | Address |
 |:----:|:--------:|
 | ![BSC](https://img.shields.io/badge/BSC-F3BA2F?style=flat-square&logo=binance&logoColor=white) **USDT · BEP-20** | `0x6E7359A42C466893E9A835fD6aFdb82E0D1Ed32d` |
 | ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white) **USDT** | `Hm7f6wGdvcmLmbcXV7sdLYGJKBdwGoFrJTZPzeN8dpan` |
